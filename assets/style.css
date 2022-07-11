@@ -1,0 +1,63 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    height: 692px;
+    background-image: linear-gradient(#ff6161,#ff768c);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 45px 0 0;
+    font-size: 30px;
+}
+
+#form-tasks {
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="text"] {
+    color: #0f222d;
+    width: 270px;
+    height: 45px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    position: relative;
+    left: -1px;
+    width: 100px;
+    height: 45px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    color:#1e4d8e;
+    font-weight: 600;
+    font-size: 16px
+}
+
+#tasks {
+  width: 290px;
+  position: relative;
+  list-style: none;
+  height: 45px;
+  line-height: 45px;
+  margin-bottom: 8px;
+  background-color: white;
+  flex-direction: column;
+}
